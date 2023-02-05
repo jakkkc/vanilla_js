@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1444108/pexels-photo-1444108.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100vh;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    
+}
+#count-el{
+    text-shadow: 2px 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+    background: darkgreen;
+}
+
+#decrement-btn{
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#saved-p{
+    color: black
+}
